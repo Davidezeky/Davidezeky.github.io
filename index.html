@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Viajes Chile</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark navbar fixed-top">
+
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/viajes.svg" class="svg d-inline-block align-top" alt="Viajes Chile" />Viajes
+                Chile</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Inicio<span class="sr-only">Actual</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienesSomos">Quiénes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <header class="container-fluid">
+        <div id="rotating_photos" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#rotating_photos" data-slide-to="0" class="active"></li>
+                <li data-target="#rotating_photos" data-slide-to="1"></li>
+                <li data-target="#rotating_photos" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item item active data-interval=1000">
+                    <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel1.jpg" alt="First slide">
+                    <figcaption class="carousel-caption">Llamas</figcaption>
+                </div>
+                <div class="carousel-item item data-interval=000">
+                    <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel2.jpg" alt="Second slide">
+                    <figcaption class="carousel-caption">Isla de Pascua</figcaption>
+                </div>
+                <div class="carousel-item item data-interval=1000">
+                    <img class="d-block w-100 h-50 img-responsive" src="assets/img/carousel3.jpg" alt="Third slide">
+                    <figcaption class="carousel-caption">Pingüinos</figcaption>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#rotating_photos" role="button" data-slide-to="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#rotating_photos" role="button" data-slide-to="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+    </header>
+    <section>
+        <h1 id="quienes somos">¿QUIENES SOMOS?</h1>
+        <hr color="white" style="margin: 2%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div style="background-color: black; padding: 20px; text-align: justify;">
+                        <i class="fa fa-plane" aria-hidden="true" style="display: block;"></i>
+                        <p>Somos una agencia de viajes chilena que se enorgullece de ofrecer experiencias únicas y
+                            auténticas en
+                            algunos
+                            de los lugares más icónicos de Chile. Nos esforzamos por cuidar y respetar la
+                            sustentabilidad
+                            ambiental
+                            en
+                            todas nuestras actividades, desde la selección de destinos hasta la elección de proveedores
+                            y la
+                            planificación de itinerarios.
+                            Nuestro equipo está formado por expertos en turismo y amantes de la naturaleza,
+                            comprometidos
+                            con la
+                            conservación del medio ambiente y la promoción del turismo responsable. Trabajamos en
+                            estrecha
+                            colaboración
+                            con comunidades locales y organizaciones de conservación para garantizar que nuestras
+                            actividades tengan
+                            un
+                            impacto positivo en el entorno y en las personas que lo habitan.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div style="background-color: black; padding: 20px; text-align: justify;">
+                        <p>Nos especializamos en viajes a lugares remotos y poco conocidos, donde la naturaleza es la
+                            protagonista.
+                            Desde la majestuosidad de los glaciares en la Patagonia hasta la belleza de los desiertos
+                            floridos en el
+                            norte, ofrecemos una amplia gama de experiencias que permiten a nuestros clientes conectar
+                            con
+                            la
+                            naturaleza
+                            de una manera única y significativa.
+
+                            Además de ofrecer viajes a destinos icónicos, también nos esforzamos por promover la cultura
+                            y
+                            la
+                            historia
+                            de Chile. Organizamos visitas a pueblos y comunidades locales, donde nuestros clientes
+                            pueden
+                            aprender
+                            sobre
+                            las tradiciones y costumbres de la gente chilena, y contribuir al desarrollo económico de
+                            estas
+                            comunidades.
+                        </p>
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true" style="display: block;"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div style="background-color: black; padding: 20px; text-align: justify;">
+                        <i class="fa fa-map-signs" aria-hidden="true" style="display:block;"></i>
+                        <p>En resumen, somos una agencia de viajes chilena comprometida con la sustentabilidad ambiental
+                            y el
+                            turismo
+                            responsable. Nos enorgullece ofrecer experiencias únicas y auténticas en algunos de los
+                            lugares más
+                            icónicos
+                            de Chile, y estamos comprometidos a trabajar en estrecha colaboración con comunidades
+                            locales y
+                            organizaciones de conservación para garantizar que nuestras actividades tengan un impacto
+                            positivo en el
+                            entorno y en las personas que lo habitan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <h4 id="destacados">Destacados</h4>
+        <hr class="linea" />
+    </div>
+    <section class="container"></section>
+    <div class="row">
+        <div class="col-sm col-lg">
+            <div class="card-group flex-container">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <hr color="white" style="margin: 2%;">
+        <form>
+            <div style="margin: 5%;">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div style="margin: 5%;">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" placeholder="Ingrese el asunto">
+            </div>
+            <div style="margin: 5%;">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin: 5%;">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="color: white;">VIAJES CHILE</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

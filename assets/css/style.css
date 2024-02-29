@@ -1,0 +1,98 @@
+    
+
+
+.navbar-brand img {
+    max-height: 30px; /* ajusta el tamaño de la imagen según sea necesario */
+}
+.header {
+    background: url(../assets/img/viajes.svg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+body {
+    font-family: "Montserrat", sans-serif;
+    font-family:  sans-serif;
+    background-color: black;
+}
+h1{
+    margin: 3%;
+}
+h2{
+    margin: 3%;
+}
+
+section {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+i {
+    background-color: lightskyblue;
+    background-size: contain;
+    padding: 2%;
+    text-align: center;
+}
+.card {
+    margin: 0 20px;
+    background-color: #328998;
+}
+
+
+.card-group {
+    border: 1px black;
+    margin-bottom: 100px;
+}
+
+
+.card-title {
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.card-text {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.card-img-top {
+    padding: 2px;
+}
+
+div div div ul li {
+    margin-top: 80px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+
+/* Atributos del carrusel de imágenes */
+#blogCarousel {
+    column-gap: 10px;
+    margin-bottom: 60px;
+}
+
+.carousel-indicators li {
+    border: 0;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+form {
+    text-align: left;
+}
+footer{
+    background-color: lightskyblue;
+    padding: 1%;
+}
